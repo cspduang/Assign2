@@ -1,0 +1,12 @@
+The entire project uses the Dijkstra algorithm to achieve the shortest path query.
+The graph is implemented using the adjacency table. Because there are too many
+actors, it is necessary to use the adjacency table to implement the graph structure.
+ Otherwise, the adjacency matrix will be huge. . Use regular expressions to do file parsing,
+  extract actors from the same movie in the CSV file, and add them as undirected graphs.
+
+To start the whole project, just run the Starter class.
+You need to pass the parameter "/tmp/data_files/tmdb_5000_credits.csv"
+to the command line to specify the location of the csv file to build
+the entire graph structure.
+
+I was trying to upload the file I used which is tmdb_5000_credits.csv, but the file is too large which can not be unload. The file path should be cd tmp, cd data_files. 
